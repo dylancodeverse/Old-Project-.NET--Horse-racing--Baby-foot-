@@ -1,0 +1,5 @@
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+dotnet tool install --global dotnet-ef
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet ef dbcontext scaffold "Server=localhost;Port=5432;Database=baby_foot;Username=walker;Password=w41k4z!;
+" Npgsql.EntityFrameworkCore.PostgreSQL --output-dir Context

@@ -1,0 +1,15 @@
+Programme pmu:
+
+les points importants:
+  class horse (horseId int , horseName string , horseNumber int ,horseVitess float , horseEndurance float [])
+
+  classe peopleMoneyPerDate (money float ,date Date)
+
+  class people (peopleId string ,peopleName string ,peoplePocket float , listVariance list<peopleMoneyPerDate>)
+
+  class horseInMatch extends horse (list<people> , second int)
+
+  classe rule( ruleId, bet ,secondRule ,added)
+
+  class match (matchId int,matchName string, listHorse list<horseInMatch> ,rules Rule)
+
